@@ -1,2 +1,7 @@
 # javacmd
-command-line utility to create a java template
+
+### Installation
+
+`git clone https://github.com/AmirNaghibi/javacmd.git`
+
+`./install`
