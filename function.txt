@@ -1,0 +1,10 @@
+# JAVA template commandline utility
+
+function jcreate(){
+  touch $1.java
+  cat ~/javacmdapp/javatemplate.txt >> $1.java
+  sed -i -e "s/CNAME/$1/g" $1.java
+  rm *java-e
+  vim $1.java
+}
+export -f jcreate

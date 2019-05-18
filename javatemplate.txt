@@ -1,0 +1,10 @@
+import java.util.*;
+
+class CNAME
+{
+
+    public static void main(String[] args)
+    {
+
+    }
+}

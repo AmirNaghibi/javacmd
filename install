@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir ~/javacmdapp
+
+cp javatemplate.txt ~/javacmdapp
+
+cat function.txt >> ~/.bash_profile
+
+rm javatemplate.txt
+
+source ~/.bash_profile
+
+echo "Successfully installed Java Commandline Utilitiy"
+
